@@ -1,0 +1,61 @@
+body{
+    background: linear-gradient(#0f2027, #203a43, #2c5364);
+      overflow: hidden;
+  transform: translateY(50px);  /* Posisi awal: agak turun */
+  opacity: 0;                   /* Posisi awal: tidak terlihat */
+  animation: muncudaribawah 2s ease-out forwards; /* Jalankan animasi */
+}
+
+@keyframes muncudaribawah {  /*minta penjelasan ke A dipa  */   
+  to {
+    transform: translateY(0);   /* Posisi akhir: kembali ke tempat semula */
+    opacity: 1;                 /* Posisi akhir: terlihat jelas */
+  }
+}
+
+
+.login{
+background:linear-gradient(#003B46, #07575B, #66A5AD);
+width: 400px;
+margin: auto;
+padding: 20px;
+border-radius: 15px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.input-set{
+    width: 95%;
+    padding: 10px;
+    margin-top: 1px;
+    border: 1px solid #ccc;
+    border-radius: 10px;    
+    
+}
+
+.submit  {
+width: 100%;
+padding: 10px;
+background: linear-gradient(#25A18E, #7AE582);
+color: white;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+
+}
+
+.submit:hover{
+    background:linear-gradient( #1d2e28, #0f2027);
+}
+
+.foto{
+width: 15%;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+
+

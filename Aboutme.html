@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="aboutme.css">
+</head>
+<body>
+         <div class="setting">
+          
+<div class="About-Me"><a href="Aboutme.html" class="a">About Me</a></div>
+<div class="home"><a href="portopolio.html" class="a">Home</a></div>
+<div class="email"> <a href="mailto:gagaming65@gmail.com" class="a">Email Me</a></div>
+         
+</div>
+<hr>
+    <div class="sejajar1 reveal">
+    <img src="aghawikrama.jpeg" width="200px" class="aghaWK">
+ <div class="tanggal">
+    Lahir tanggal 7 Mei 2009 <br>
+    Rayon Cicurug 6 <br>
+    Roumble P2 <br>
+    Status siswa SMK Wikrama Bogor <br>
+    </div>
+</div>
+<div class="sejajar2 reveal">
+    <div class="asalpondok">
+            Sekolah asal Pondok Pesantren <br>
+            Al-Quran Al-Falah Bandung <br>
+            selama 3 tahun pesantren juga bersekolah <br>
+            mendapatkan berbagai penglaman <br>
+            juga beberapa prestasi <br>
+        </div>
+    <img src="pesantren.png" width="400px" class="pesantren reveal">
+</div>
+<div class="sejajar3 reveal" >
+<img src="piala.jpeg" width="350px" height="350px" class="piala reveal">
+<div class="prestasi reveal">
+            Prestasi yaitu <br>
+            Ranking 3 semester 1 kelas 7(pesantren) <br>
+            Ranking 3 semester 2 kelas 7(pesantren) <br>
+            Ranking 1 semester 1 kelas 7 <br>
+            Ranking 1 semester 2 kelas 7 <br>
+            Ranking 1 semester 1 kelas 8 <br>
+            Ranking 1 semester 2 kelas 8 <br>
+            Ranking 1 semester 1 kelas 9 <br>
+            Ranking 2 semester 2 kelas 9 <br>
+        </div>
+</div>
+
+<div class="sejajar4 reveal">
+<div class="osis">
+            Pengalaman yaitu <br>
+            Menjadi OSIS di sekolah dan beberapakali ditunjuk sebagai <br>
+            ketua pelaksana dibeberapa acara sekolah seperti classmeet <br>
+            DLL.
+</div>
+<img src="sambutan.jpeg" width="300" class="sambutan">
+</div>
+
+
+<div class="MC reveal">
+            Menjadi pembawa acara atau yang lebih sering dikenal sebagai <br>
+            Master Of Ceremony (MC) di acara Lailatul Wida Almahilly atau  <br>
+            perpisahan lokal kelas 9 pesantren maupun sekolah. <br>
+            dan di acara peringatan HUT RI ke 79 <br>
+</div>
+<div class="sejajar5"></div>
+<img src="MC.jpeg" width="400px" height="300px" class="Master">
+<img src="agustus.jpeg" width="200px" class="agust">        
+</div>
+
+<div class="penutup reveal">
+Mulai belajar HTML dan CSS sekitar 1 bulan yang lalu tapi dengan <br>
+tingkat kemalasan yang tinggi karna jujur hampir tidak ada bimbingan <br>
+sama sekali harus memulai darimana sekalipun kakak saya memiliki jurusan <br>
+yang sama tapi dia tidak pernah mengajari saya, dia hanya pernah menyuruh saya <br>
+menonton 1 vidio youtube yang berdurasi 15 menit tentang HTMl dasar <br>
+dan setelah itu membiarkan saya mengexplornya lebih dalam.Walau saya <br>
+memiliki masalah codingan ketika saya bertanya kepada kakak saya dia hanya <br>
+menjawab "teangan sorangan" akhirnya saya menonton berbagai vidio yang menjelaskan <br>
+tentang HTMl dan CSS hingga saya merasa kurang puas akan hasil dari youtube <br>
+sehingga saya mencari cara agar saya dapat membuat web sesuai dengan keinginan <br>
+saya maka saya meminta sedikit bantuan IA jika benar benar saya sudah pusing <br>
+saya tidak semata mata menjiplak dari IA tapi saya memintanya untuk mengajari <br>
+saya dan menjelaskannya secara singkat maupun rinci <br>
+ dan sekarang seya sedang mencoba mempelajari javascrip <br> 
+</div>
+
+
+
+
+<script>
+  function revealElements() {
+    const reveals = document.querySelectorAll('.reveal');
+
+    for (let i = 0; i < reveals.length; i++) {
+      const windowHeight = window.innerHeight;
+      const elementTop = reveals[i].getBoundingClientRect().top;
+      const revealPoint = 150;
+
+      if (elementTop < windowHeight - revealPoint) {
+        reveals[i].classList.add('active');
+      } else {
+        reveals[i].classList.remove('active');
+      }
+    }
+  }
+
+  window.addEventListener('scroll', revealElements);
+</script>
+
+
+
+</body>
+</html>

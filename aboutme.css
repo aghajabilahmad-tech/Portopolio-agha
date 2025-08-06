@@ -1,0 +1,171 @@
+body{
+background: linear-gradient(to right, #173F5F, #081c30, #04192e);
+
+
+}
+
+.a{
+  color: inherit;            
+  text-decoration: none;
+}
+
+.About-Me:hover{
+  transform: scale(1.6);
+ border-radius: 5px;
+}
+
+.home:hover{
+  transform: scale(1.6);
+  border-radius: 5px;
+}
+
+.email:hover{
+  transform: scale(1.6);
+  border-radius: 5px;
+}
+
+.setting{
+  color: burlywood;
+  display: flex;
+  justify-content: flex-start;     /* Tengah secara horizontal */
+       align-items: flex-start;    /* Tengah secara vertikal (dalam baris) */
+  gap:  70px;                   /* Jarak antar menu */
+  padding: 30px;
+  font-family: sans-serif;
+    transition: transform 0.3s ease;  
+}
+
+.aghaWK{
+display: flex;
+justify-content: flex-start;
+padding-left: 100px;
+}
+
+.tanggal{
+        padding: 50px;
+      font-size: 2em;
+      color: white;
+      font-weight: bold;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+padding-right: 800px;
+
+}
+
+.sejajar1{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.sejajar2{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.pesantren{
+display: flex;
+margin: 100px auto;
+justify-content: flex-end;
+align-items: center;
+
+
+}
+
+.asalpondok{
+        padding: 30px;
+      font-size: 2em;
+      color: white;
+      font-weight: bold;
+      padding-left: 100px;
+      
+}
+.piala{
+padding-left: 100px;
+
+
+}
+
+.prestasi{
+  padding: 50px;
+      font-size: 2em;
+      color: white;
+      font-weight: bold;
+      padding-right: 400px;
+}
+
+.sejajar3{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+.osis{
+      padding: 30px;
+      font-size: 2em;
+      color: white;
+      font-weight: bold;
+      padding-left: 100px;
+}
+
+.sejajar4{
+  display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.sambutan{
+display: flex;
+margin: 100px auto;
+justify-content: flex-end;
+align-items: center;
+padding-right: 140px;
+
+}
+
+.MC{
+
+padding: 30px;
+font-size: 2em;
+color:white;
+font-weight: bold;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.sejajar5{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+.Master{
+padding-left: 100px;
+}
+.agust{
+padding-left: 800px;
+}
+
+.penutup{
+padding: 30px;
+font-size: 2em;
+color: burlywood;
+font-weight: bold;
+
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 1s ease;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
